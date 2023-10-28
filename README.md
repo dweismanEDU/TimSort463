@@ -1,7 +1,7 @@
 # Analysis of MergeSort vs TimSort
 
 ## Project's Goals:
-The primary objective of this project is to measure and analyze the performance differences between two widely recognized sorting algorithms: MergeSort and TimSort. By running some tests on the functions, we aim to provide a clear comparative insight into their strengths, weaknesses, and optimal application scenarios.
+The primary objective of this project is to measure and analyze the performance differences between two widely recognized sorting algorithms: MergeSort and TimSort. By running some tests on the functions, I aim to provide a clear comparative insight into their strengths, weaknesses, and optimal application scenarios.
 
 ## Algorithm Description:
 
@@ -12,7 +12,7 @@ MergeSort is a classic divide-and-conquer sorting algorithm. The list is repeate
 TimSort is a hybrid, adaptive sorting algorithm derived from MergeSort and Insertion Sort. It's specifically optimized for real-world data and is the default sorting algorithm in Python's `sorted` function and `list.sort()` method. TimSort divides the list into small chunks, then sorts those chunks using insertion sort before merging them in a similar way to MergeSort. Its adaptability means that its performance can be O(n log n) in the worst-case scenario, but it can achieve O(n) time complexity on partially sorted data, giving it the possiblity to be quicker than MergeSort.
 
 ## Benchmarking Result:
-(Note: The following results are hypothetical and provided for illustrative purposes only.)
+Below is an example where both mergesort and timsort were used to sort the same data. Time.time() was used to calculate the run times.
 
 | Dataset Size | MergeSort Time (s) | TimSort Time (s) |
 |--------------|---------------------|-------------------|
