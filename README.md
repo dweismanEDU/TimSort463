@@ -26,4 +26,4 @@ In our benchmark tests, TimSort consistently outperformed MergeSort, albeit by a
 
 Theoretically, both algorithms hold an average and worst-case time complexity of O(n log n). However, TimSort's hybrid nature and its adaptive characteristics allow it to often perform closer to O(n) under real-world scenarios, where data may have inherent order.
 
-In conclusion, while MergeSort provides a reliable and predictable performance, TimSort can leverage its hybrid structure and adaptive sorting techniques to provide marginally faster results, especially in environments where data might have some pre-existing order.
+In conclusion, while MergeSort provides a reliable and predictable performance, TimSort can leverage its hybrid structure and adaptive sorting techniques to provide slightly faster results, especially in environments where data might have some pre-existing order. This makes it very useful in real world applications and makes Timsort a must-know algorithm.
